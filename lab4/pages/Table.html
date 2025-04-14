@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        thead {
+            background-color: #c2e0ff;
+        }
+        tfoot {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body style="background-image: url('../images/1.png'); background-size: cover;">
+    <h1>Приклад використання таблиці</h1>
+
+    <table>
+        <caption>Результати студентів з програмування</caption>
+
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Ім'я</th>
+                <th>Група</th>
+                <th>Оцінка</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Олена</td>
+                <td>ПЗ-21</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ігор</td>
+                <td>ПЗ-21</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Марія</td>
+                <td>ПЗ-22</td>
+                <td>91</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Середній бал</strong></td>
+                <td>91.3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
